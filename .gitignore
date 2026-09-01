@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+~$*
+
+# Local datasets and generated experiment products. Existing historical files
+# already tracked by Git are unaffected by these rules.
+data/original/
+data/snapshots/
+results/
+artifacts/
+configs/tuned_models*/
+
+# Manuscript and document-rendering work products kept beside the code locally.
+/*.docx
+/*.pdf
+/*.drawio
+/*draft*.md
+/IF_CRED_THEORY_AND_NEW_EXPERIMENT_BRIEF.md
+/.render_*/
+/tmp/
